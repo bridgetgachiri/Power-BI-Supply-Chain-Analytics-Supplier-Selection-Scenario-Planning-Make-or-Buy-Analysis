@@ -1,0 +1,2 @@
+# Power-BI-Supply-Chain-Analytics-Supplier-Selection-Scenario-Planning-Make-or-Buy-Analysis
+An interactive Power BI project that compares supplier quotations with the cost of manufacturing parts in-house to support informed sourcing and production decisions. The dashboard analyses supplier pricing,total procurement costs, volume-based scenarios, manufacturing capacity requirements, capital investment, and potential cost avoidance.
