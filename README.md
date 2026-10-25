@@ -65,4 +65,8 @@ The initial cost comparison indicates that internal manufacturing may be the mor
 
 Based on these estimates, internal manufacturing has a substantially lower calculated cost than purchasing from a supplier. This result highlights the importance of evaluating capital investment and production costs alongside supplier quotes when making procurement decisions.
 
-*Note: This is a preliminary finding based on the current Power BI calculations. The cost assumptions and manufacturing capacity logic should be validated before making a final recommendation.*
+### Key Finding: Make vs. Buy — Part P0604
+
+At a selected scenario volume of 60,000 units, the estimated internal manufacturing cost for part P0604 was $382,540, compared with $2,532,285.54 for the lowest-cost eligible supplier quote. This represents an estimated cost difference of $2,149,745.54, or approximately 84.9% lower cost for the make option.
+
+The manufacturing estimate includes $280,000 in capital investment for additional production capacity and $102,540 in estimated variable production costs. These results suggest that internal manufacturing may be the more cost-effective option under this scenario, subject to validating that the two alternatives have comparable cost coverage and assumptions.
