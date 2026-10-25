@@ -36,3 +36,19 @@ I developed DAX measures to evaluate procurement and manufacturing costs under d
 - **Make Full Cost:** Combines estimated capital investment with variable manufacturing costs.
 - **Cost Avoidance:** Calculates the absolute difference between the estimated making and buying costs.
 
+## Dashboard Preview
+
+### 1. Supplier Selection
+Review supplier quotes, costs, and the factors that influence supplier selection.
+
+![Supplier Selection Dashboard](screenshots/supplier-selection.png)
+
+### 2. Scenario Analysis
+Explore how estimated purchasing costs change across different volume scenarios.
+
+![Scenario Analysis Dashboard](screenshots/scenario-analysis.png)
+
+### 3. Make vs. Buy Analysis
+Compare estimated internal manufacturing costs with supplier purchasing costs to support procurement decisions.
+
+![Make vs Buy Analysis Dashboard](screenshots/make-vs-buy-analysis.png)
