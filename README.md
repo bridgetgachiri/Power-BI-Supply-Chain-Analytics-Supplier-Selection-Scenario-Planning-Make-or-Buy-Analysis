@@ -110,9 +110,11 @@ This example illustrates how existing production capacity can influence make-or-
 
 The initial cost comparison indicates that internal manufacturing may be the more cost-effective option for part P0604 at a selected scenario volume of 60,000 units.
 
-- **Estimated Make Full Cost:** $382,540.00
-- **Estimated Lowest Buy Scenario Full Cost:** $2,532,285.54
-- **Absolute Cost Difference:** $2,149,745.54
+| Measure | Estimated Cost |
+|---|---:|
+| Make Full Cost | $382,540.00 |
+| Lowest Buy Scenario Full Cost | $2,532,285.54 |
+| **Absolute Cost Difference** | **$2,149,745.54** |
 
 The manufacturing estimate includes $280,000 in capital investment for additional production capacity and $102,540 in estimated variable production costs. These results suggest that internal manufacturing may be the more cost-effective option under this scenario.
 
