@@ -108,8 +108,6 @@ This measure helps assess whether internal manufacturing requires additional inv
 
 **Used in:** Make vs. Buy Analysis and as an input to Make Full Cost.
 
-**Validation note:** The formula uses `MIN(Internal_Mfg_Resource_Estimates[Unit_Capacity])` inside an iterator. The result depends on the active filter context. Confirm that this is the intended capacity value for each evaluated manufacturing resource before treating the measure as fully validated.
-
 ---
 
 ## 4. Additional Unit Capacity Required
@@ -143,8 +141,6 @@ This measure helps determine whether existing production capacity can meet the s
 
 **Used in:** Make vs. Buy Analysis and as an input to Capital Investment Required (Make).
 
-**Validation note:** Because `MINX` returns the minimum result, confirm that taking the minimum across the evaluated manufacturing resource estimates reflects the intended capacity-planning logic for the business problem.
-
 ---
 
 ## 5. Cost Avoidance
@@ -169,7 +165,6 @@ ABS(
 
 This measure quantifies the financial gap between the two alternatives. It can help communicate the magnitude of the difference to decision-makers.
 
-However, because the measure uses `ABS`, it does not indicate which alternative is cheaper. The `Make Full Cost` and `Buy Scenario Full Cost` measures must be compared directly to determine the lower-cost option.
 
 **Used in:** Make vs. Buy Analysis.
 
