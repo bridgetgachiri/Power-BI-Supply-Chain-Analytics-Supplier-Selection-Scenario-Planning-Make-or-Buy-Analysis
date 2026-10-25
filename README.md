@@ -60,7 +60,7 @@ I developed DAX measures to evaluate procurement and manufacturing costs under d
 - **Make Full Cost:** Combines estimated capital investment with variable manufacturing costs.
 - **Cost Avoidance:** Calculates the absolute difference between the estimated making and buying costs.
 
-The formulas and detailed explanations will be documented separately in dax-measures/make-vs-buy-measures.md.
+The formulas and detailed explanations are documented separately in the [DAX Measures Documentation](./dax-measures/make-vs-buy-measures.md).
 
 ## Dashboard Preview
 
