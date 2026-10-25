@@ -1,28 +1,38 @@
-# Power-BI-Supply-Chain-Analytics-Supplier-Selection-Scenario-Planning-Make-or-Buy-Analysis
-An interactive Power BI project that compares supplier quotations with the cost of manufacturing parts in-house to support informed sourcing and production decisions. The dashboard analyses supplier pricing,total procurement costs, volume-based scenarios, manufacturing capacity requirements, capital investment, and potential cost avoidance.
+# Make vs. Buy Analysis | Power BI
 
-Executive summary
+## Project Overview
 
-Supplier decisions are rarely as simple as selecting the lowest unit price. One-time charges, required volume, capacity constraints, and capital investment can change which option is most attractive.
-This project organizes a supply-chain decision workflow into a three-page Power BI report:
+Should a business manufacture a product internally or purchase it from an external supplier?
 
-Supplier Selection — compare supplier quotes and cost components for a selected part and volume.
+This project explores that procurement decision using Power BI. It compares estimated internal manufacturing costs including required capital investment with supplier purchasing costs across different volume scenarios.
 
-Scenario Analysis Simulator — explore how modeled supplier costs may change under different volume assumptions.
+The goal is to evaluate both options and identify which is more cost-effective under the selected scenario.
 
-Make vs. Buy Analysis — bring buy cost, make cost, manufacturing capacity, and capital investment into the same decision discussion.
-The aim is to move from a static price comparison toward a repeatable, interactive decision-support process. 
+## Business Questions
 
-Business problem
+- How do supplier costs compare across quoted volumes?
+- How does the required capital investment affect the cost of manufacturing internally?
+- How does the cost comparison change as the selected volume scenario changes?
+- Which option offers the lower estimated total cost?
 
-Procurement and manufacturing stakeholders may need to evaluate several competing factors at once:
+## Tools & Methods
 
-Which supplier quote is most cost-effective for a particular part and required volume?
+**Tool:** Microsoft Power BI
 
-How do modeled costs change when demand assumptions change?
+**Key skills demonstrated:**
+- Data visualization and interactive dashboard development
+- DAX measures for scenario-based cost calculations
+- Supplier quote and procurement cost comparison
+- Manufacturing capacity and capital investment analysis
+- Make-versus-buy cost modelling
 
+### DAX & Business Logic
 
-Does the preferred supplier change at different volumes?
+I developed DAX measures to evaluate procurement and manufacturing costs under different volume scenarios, including:
 
-Is internal production economically attractive and operationally feasible after considering capacity and investment?
-Are cost comparisons based on consistent units, commercial terms, and time horizons?
+- **Buy Scenario Full Cost:** Calculates the minimum estimated purchasing cost among eligible supplier quotes.
+- **Additional Unit Capacity Required:** Estimates the extra manufacturing capacity needed after accounting for existing capacity.
+- **Capital Investment Required (Make):** Estimates the investment needed to provide additional manufacturing capacity.
+- **Make Full Cost:** Combines estimated capital investment with variable manufacturing costs.
+- **Cost Avoidance:** Calculates the absolute difference between the estimated making and buying costs.
+
