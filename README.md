@@ -14,7 +14,6 @@ The objective is to evaluate both alternatives and identify which has the lower 
 * How do modeled costs change when demand assumptions change?
 * Does the preferred supplier change at different volumes?
 * Is internal production economically attractive and operationally feasible after considering capacity and investment?
-* Are cost comparisons based on consistent units, commercial terms, and time horizons?
 
 ## The solution
 
