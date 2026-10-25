@@ -52,3 +52,17 @@ Explore how estimated purchasing costs change across different volume scenarios.
 Compare estimated internal manufacturing costs with supplier purchasing costs to support procurement decisions.
 
 ![Make vs Buy Analysis Dashboard](screenshots/make-vs-buy-analysis.png)
+
+## Preliminary Findings
+
+### Part P0604 — Scenario Volume: 60,000 Units
+
+The initial cost comparison indicates that internal manufacturing may be the more cost-effective option for part P0604 at a selected scenario volume of 60,000 units.
+
+- **Estimated Make Full Cost:** $382,540.00
+- **Estimated Buy Scenario Full Cost:** $2,532,285.54
+- **Absolute Cost Difference:** $2,149,745.54
+
+Based on these estimates, internal manufacturing has a substantially lower calculated cost than purchasing from a supplier. This result highlights the importance of evaluating capital investment and production costs alongside supplier quotes when making procurement decisions.
+
+*Note: This is a preliminary finding based on the current Power BI calculations. The cost assumptions and manufacturing capacity logic should be validated before making a final recommendation.*
